@@ -1,0 +1,13 @@
+.grid {
+  grid-template-columns: 30% 40% 30%;
+  grid-template-areas: "none" "calculator" none;
+}
+
+.grid-container {
+  grid-area: "calculator";
+  display: flex;
+  grid-template-columns: 30px 30px 30px 30px;
+  grid-template-rows: 30px 30px 30px;
+  grid-template-areas: ". . . ." ". . . ." ". . . .";
+  background-color: blue;
+}
